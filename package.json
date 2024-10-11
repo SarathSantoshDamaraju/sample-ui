@@ -1,5 +1,5 @@
 {
-	"name": "@krishna/sample-ui",
+	"name": "@krishna_ghl/sample-ui",
 	"title": "Sample UI",
 	"description": "Extending Naive ui",
 	"keywords": [
@@ -111,5 +111,34 @@
 	},
 	"sideEffects": false,
 	"unpkg": "dist/index.prod.js",
-	"jsdelivr": "dist/index.prod.js"
+	"jsdelivr": "dist/index.prod.js",
+	"directories": {
+		"doc": "docs",
+		"lib": "lib"
+	},
+	"dependencies": {
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-config-standard": "^17.1.0",
+		"eslint-import-resolver-custom-alias": "^1.3.2",
+		"eslint-import-resolver-node": "^0.3.9",
+		"eslint-module-utils": "^2.8.0",
+		"eslint-plugin-es": "^4.1.0",
+		"eslint-plugin-import": "^2.28.0",
+		"eslint-plugin-n": "^15.7.0",
+		"eslint-plugin-promise": "^6.1.1",
+		"eslint-scope": "^7.2.2",
+		"eslint-utils": "^3.0.0",
+		"eslint-visitor-keys": "^3.4.3",
+		"prettier-linter-helpers": "^1.0.0",
+		"vue-eslint-parser": "^9.3.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SarathSantoshDamaraju/sample-ui.git"
+	},
+	"author": "",
+	"bugs": {
+		"url": "https://github.com/SarathSantoshDamaraju/sample-ui/issues"
+	},
+	"homepage": "https://github.com/SarathSantoshDamaraju/sample-ui#readme"
 }
