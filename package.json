@@ -10,7 +10,7 @@
 		"vue",
 		"vue3"
 	],
-	"version": "0.18.0",
+	"version": "0.18.1",
 	"license": "MIT",
 	"type": "module",
 	"main": "lib/index.cjs",
