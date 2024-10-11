@@ -10,7 +10,7 @@
 		"vue",
 		"vue3"
 	],
-	"version": "0.18.1",
+	"version": "0.18.2",
 	"license": "MIT",
 	"type": "module",
 	"main": "lib/index.cjs",
@@ -53,9 +53,7 @@
 		}
 	},
 	"engines": {
-		"node": ">=20",
-		"npm": ">=8",
-		"pnpm": ">=8"
+		"node": ">=20"
 	},
 	"scripts": {
 		"build": "pnpm run gen-dist && pnpm run gen-dts && pnpm run gen-volar",
@@ -140,5 +138,8 @@
 	"bugs": {
 		"url": "https://github.com/SarathSantoshDamaraju/sample-ui/issues"
 	},
-	"homepage": "https://github.com/SarathSantoshDamaraju/sample-ui#readme"
+	"homepage": "https://github.com/SarathSantoshDamaraju/sample-ui#readme",
+	"volta": {
+		"node": "20.18.0"
+	}
 }
